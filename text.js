@@ -6,6 +6,6 @@ function gettest(){
 }
 
 myFunction = () =>{
-    Alert(a);
+    alert(a);
 }
 
