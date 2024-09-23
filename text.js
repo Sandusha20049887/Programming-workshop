@@ -7,6 +7,6 @@ function gettest(){
 myFunction = () =>{
     inputText = document.getElementById('userInput').value;
     alert(inputText);
-    document.getElementById('lbl1').value = 'inputText;
+    document.getElementById('lbl1').value = "inputText";
 }
 
