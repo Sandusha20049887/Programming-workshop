@@ -6,7 +6,7 @@ function gettest(){
 }
 
 myFunction = () =>{
-    inputText = Document.getElementById("userInput");
+    inputText = Document.getElementById("userInput").value;
     alert(inputText);
 }
 
