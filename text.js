@@ -9,6 +9,8 @@ myFunction = () =>{
 
     if(inputText > 15 ){
         alert("Luggage cannot be exceed than 15kgs");
+    }else{
+        alert(inputText +" Kg");
     }
 }
 
