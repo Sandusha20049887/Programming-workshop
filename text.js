@@ -1,7 +1,7 @@
 let a = "Test Button"
 
 window.onload = function() {
-    funtionSumOfMultiples();
+  
   };
 
 function gettest(){
