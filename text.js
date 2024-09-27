@@ -27,5 +27,5 @@ funtionSumOfMultiples = () => {
         }
     }
 
-    alert("Sum of multiples of 3 and 5 below 10: "+sum);
+    alert("Sum of multiples of 3 and 5 below 10 : "+sum);
 }
