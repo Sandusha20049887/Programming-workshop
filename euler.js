@@ -27,3 +27,11 @@ funtionSumOfMultipliesParam = (a,b,n) => {
     let txt = document.getElementById("lbl1");
     txt.innerHTML = "Sum of multiples of "+a+ " and " +b+ " below " +n+" : "+sum;
 }
+
+hideResult = () =>{
+    document.getElementById("lbl1").setAttribute("hidden", true);
+}
+
+showResult =() =>{
+    document.getElementById("lbl1").setAttribute("hidden", false);
+}
