@@ -29,9 +29,9 @@ funtionSumOfMultipliesParam = (a,b,n) => {
 }
 
 hideResult = () =>{
-    document.getElementById("lbl1").style.display = 'none';
+    document.getElementById("lbl1").style.visibility = "hidden";
 }
 
 showResult =() =>{
-    document.getElementById("lbl1").style.display = 'block';
+    document.getElementById("lbl1").style.visibility = "";
 }
