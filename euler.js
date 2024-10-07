@@ -27,7 +27,7 @@ funtionSumOfMultipliesParam = (a,b,n) => {
     let txt = document.getElementById("lbl1");
     txt.innerHTML = "Sum of multiples of "+a+ " and " +b+ " below " +n+" : "+sum;
 }
-functionArray(1,2);
+functionArray();
 functionArray = (a,b) =>{
     const arr = [3,5]
 
