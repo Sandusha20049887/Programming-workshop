@@ -8,7 +8,7 @@ funtionSumOfMultiplies = () => {
         }
     }
 
-    alert("Sum of multiples of 3 and 5 below 1000 : "+sum);
+    //alert("Sum of multiples of 3 and 5 below 1000 : "+sum);
 }
 
 funtionSumOfMultiplies();
