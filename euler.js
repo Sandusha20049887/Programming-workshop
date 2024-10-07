@@ -33,12 +33,15 @@ funtionSumOfMultipliesParam = (a,b,n) => {
 functionArray = (a,b) =>{
     const arr = [3,5]
     let txt = "";
-    arr.forEach(func1);
 
     func1 = (value) =>{
         
         txt += value +" , ";
     }
+    
+    arr.forEach(func1);
+
+  
 
     let txtarea =  document.getElementById("txtarea1");
     txtarea.innerHTML = "sample";
