@@ -22,7 +22,7 @@ funtionSumOfMultipliesParam = (a,b,n) => {
         }
     }
 
-    alert("Sum of multiples of "+a+ " and " +b+ " below " +n+" : "+sum);
+    //alert("Sum of multiples of "+a+ " and " +b+ " below " +n+" : "+sum);
 
     let txt = document.getElementById("lbl1");
     txt.innerHTML = "Sum of multiples of "+a+ " and " +b+ " below " +n+" : "+sum;
@@ -38,13 +38,10 @@ functionArray = (a,b) =>{
         
         txt += value +" , ";
     }
-    
+
     arr.forEach(func1);
-
-  
-
-    let txtarea =  document.getElementById("txtarea1");
-    txtarea.innerHTML = "sample";
+    
+    document.getElementById("txtarea1").innerHTML = "sample" + txt;
 }
 
 functionArray(1,2);
