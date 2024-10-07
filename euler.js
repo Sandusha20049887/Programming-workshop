@@ -13,6 +13,15 @@ funtionSumOfMultiplies = () => {
 
 funtionSumOfMultiplies();
 
+
+hideResult = () =>{
+    document.getElementById("lbl1").style.visibility = "hidden";
+}
+
+showResult =() =>{
+    document.getElementById("lbl1").style.visibility = "";
+}
+
 funtionSumOfMultipliesParam = (a,b,n) => {
 
     let sum = 0;
@@ -47,12 +56,3 @@ functionArray = (a,b) =>{
 functionArray(1,2);
 
 
-
-
-hideResult = () =>{
-    document.getElementById("lbl1").style.visibility = "hidden";
-}
-
-showResult =() =>{
-    document.getElementById("lbl1").style.visibility = "";
-}
