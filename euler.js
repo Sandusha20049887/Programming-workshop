@@ -30,7 +30,7 @@ funtionSumOfMultipliesParam = (a,b,n) => {
 
 func1 = (value) =>{
     let txt = "";
-    txt += value +"</br>";
+    txt += value +" , ";
     document.getElementById("txtarea1").innerHTML = txt;
 }
 
