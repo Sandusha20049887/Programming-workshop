@@ -28,17 +28,20 @@ funtionSumOfMultipliesParam = (a,b,n) => {
     txt.innerHTML = "Sum of multiples of "+a+ " and " +b+ " below " +n+" : "+sum;
 }
 
-func1 = (value) =>{
-    let txt = "";
-    txt += value +" , ";
-    let txtarea =  document.getElementById("txtarea1");
-    txtarea.innerHTML = "sample";
-}
+
 
 functionArray = (a,b) =>{
     const arr = [3,5]
-
+    let txt = "";
     arr.forEach(func1);
+
+    func1 = (value) =>{
+        
+        txt += value +" , ";
+    }
+
+    let txtarea =  document.getElementById("txtarea1");
+    txtarea.innerHTML = "sample";
 }
 
 functionArray(1,2);
