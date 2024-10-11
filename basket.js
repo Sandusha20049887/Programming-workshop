@@ -14,24 +14,28 @@ let basketCost=(b,p)=>{
 }
 
 function calculateTotal(basket, prices){
-    const priceMap = new Map(prices.map(item => [item.product, item.price]));
-  
-}
+
+        const newArr = basket.map(myFunction)
+
+        function myFunction(index, num) {
+          console.log(index +" "+num);
+        }
+    }
+
 
 function calculateAndDisplayTotal() {
     const basket = {
-        apple: parseInt(document.getElementById('appleQty').value ),
-        banana: parseInt(document.getElementById('bananaQty').value ),
-        orange: parseInt(document.getElementById('orangeQty').value )
+        apple: parseInt(document.getElementById('appleQty').value),
+        banana: parseInt(document.getElementById('bananaQty').value),
+        orange: parseInt(document.getElementById('orangeQty').value)
     };
 
     const prices = {
-        apple: parseFloat(document.getElementById('applePrice').value ),
-        banana: parseFloat(document.getElementById('bananaPrice').value ),
-        orange: parseFloat(document.getElementById('orangePrice').value )
+        apple: parseFloat(document.getElementById('applePrice').value),
+        banana: parseFloat(document.getElementById('bananaPrice').value),
+        orange: parseFloat(document.getElementById('orangePrice').value)
     };
 
-    alert(document.getElementById('appleQty').value);
-    //let total = calculateTotal(basket,prices);
-    //alert(total);
+    let total = calculateTotal(basket,prices);
+    alert(total);
 }
