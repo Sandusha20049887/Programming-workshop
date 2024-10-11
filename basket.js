@@ -13,6 +13,10 @@ let basketCost=(b,p)=>{
     return 0; //clearly wrong!
 }
 
+function calculateTotal(basket, prices){
+    
+}
+
 function calculateAndDisplayTotal() {
     const basket = {
         apple: parseInt(document.getElementById('appleQty').innerText),
