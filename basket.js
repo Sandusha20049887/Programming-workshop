@@ -14,12 +14,14 @@ let basketCost=(b,p)=>{
 }
 
 function calculateTotal(basket, prices){
-
-        const newArr = basket.map(myFunction)
-
-        function myFunction(index, num) {
-          console.log(index +" "+num);
+ let totalCost = 0;
+        for(let product in basket){
+            if(prices.hasOwnProperty(product)){
+                totalCost += basket[product] * prices[product]; 
+            }
         }
+        console.log(totalCost);
+        return totalCost;
     }
 
 
