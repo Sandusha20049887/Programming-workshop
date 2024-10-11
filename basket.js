@@ -14,7 +14,11 @@ let basketCost=(b,p)=>{
 }
 
 function calculateTotal(basket, prices){
-    
+    const priceMap = new Map(prices.map(item => [item.product, item.price]));
+    return basket.reduce((total, item) => {
+        const price = priceMap.get(item.product) || 0;
+        return total + (item.quantity * price);
+    }, 0);
 }
 
 function calculateAndDisplayTotal() {
@@ -29,4 +33,7 @@ function calculateAndDisplayTotal() {
         banana: parseFloat(document.getElementById('bananaPrice').innerText),
         orange: parseFloat(document.getElementById('orangePrice').innerText)
     };
+
+    let total = calculateTotal(basket,prices);
+    alert(total);
 }
