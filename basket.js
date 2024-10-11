@@ -20,15 +20,15 @@ function calculateTotal(basket, prices){
 
 function calculateAndDisplayTotal() {
     const basket = {
-        apple: parseInt(document.getElementById('appleQty').innerText),
-        banana: parseInt(document.getElementById('bananaQty').innerText),
-        orange: parseInt(document.getElementById('orangeQty').innerText)
+        apple: parseInt(document.getElementById('appleQty').value ),
+        banana: parseInt(document.getElementById('bananaQty').value ),
+        orange: parseInt(document.getElementById('orangeQty').value )
     };
 
     const prices = {
-        apple: parseFloat(document.getElementById('applePrice').innerText),
-        banana: parseFloat(document.getElementById('bananaPrice').innerText),
-        orange: parseFloat(document.getElementById('orangePrice').innerText)
+        apple: parseFloat(document.getElementById('applePrice').value ),
+        banana: parseFloat(document.getElementById('bananaPrice').value ),
+        orange: parseFloat(document.getElementById('orangePrice').value )
     };
 
     alert(basket[0],prices[0]);
