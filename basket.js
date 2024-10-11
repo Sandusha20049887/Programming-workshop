@@ -31,7 +31,7 @@ function calculateAndDisplayTotal() {
         orange: parseFloat(document.getElementById('orangePrice').value )
     };
 
-    alert(basket[0],prices[0]);
+    alert(document.getElementById('appleQty').value);
     let total = calculateTotal(basket,prices);
     alert(total);
 }
