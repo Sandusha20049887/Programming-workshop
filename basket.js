@@ -32,6 +32,6 @@ function calculateAndDisplayTotal() {
     };
 
     alert(document.getElementById('appleQty').value);
-    let total = calculateTotal(basket,prices);
-    alert(total);
+    //let total = calculateTotal(basket,prices);
+    //alert(total);
 }
