@@ -33,9 +33,9 @@ function calculateAndDisplayTotal() {
     };
 
     const prices = {
-        apple: parseInt(document.getElementById('applePrice').value),
-        banana: parseInt(document.getElementById('bananaPrice').value),
-        orange: parseInt(document.getElementById('orangePrice').value)
+        apple: parseInt(document.getElementById('applePrice').innerHTML),
+        banana: parseInt(document.getElementById('bananaPrice').innerHTML),
+        orange: parseInt(document.getElementById('orangePrice').innerHTML)
     };
 
     calculateTotal(basket,prices);
