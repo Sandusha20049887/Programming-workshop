@@ -13,4 +13,19 @@ let basketCost=(b,p)=>{
     return 0; //clearly wrong!
 }
 
-alert(basketCost({},{}))
+function calculateAndDisplayTotal() {
+    const basket = {
+        apple: parseInt(document.getElementById('appleQty').innerText),
+        banana: parseInt(document.getElementById('bananaQty').innerText),
+        orange: parseInt(document.getElementById('orangeQty').innerText)
+    };
+
+    const prices = {
+        apple: parseFloat(document.getElementById('applePrice').innerText),
+        banana: parseFloat(document.getElementById('bananaPrice').innerText),
+        orange: parseFloat(document.getElementById('orangePrice').innerText)
+    };
+
+    const total = calculateTotalCost(basket, prices);
+    document.getElementById('totalCost').innerText = total.toFixed(2);
+}
