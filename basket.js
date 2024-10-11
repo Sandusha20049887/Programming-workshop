@@ -25,7 +25,4 @@ function calculateAndDisplayTotal() {
         banana: parseFloat(document.getElementById('bananaPrice').innerText),
         orange: parseFloat(document.getElementById('orangePrice').innerText)
     };
-
-    const total = calculateTotalCost(basket, prices);
-    document.getElementById('totalCost').innerText = total.toFixed(2);
 }
