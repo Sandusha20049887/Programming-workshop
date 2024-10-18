@@ -42,20 +42,20 @@ funtionSumOfMultipliesParam = (a,b,n) => {
 
 
 
-// functionArray = (a,b) =>{
-//     const arr = [3,5]
-//     let txt = "";
+functionArray = (a,b) =>{
+    const arr = [3,5]
+    let txt = "";
 
-//     // func1 = (value) =>{
+    // func1 = (value) =>{
         
-//     //     txt += value +" , ";
-//     // }
+    //     txt += value +" , ";
+    // }
 
-//     // arr.forEach(func1);
+    // arr.forEach(func1);
     
-//     document.getElementById("txtarea1").innerHTML = "sample";
-// }
+    document.getElementById("txtarea1").innerHTML = "sample";
+}
 
-// functionArray(1,2);
+functionArray(1,2);
 
 
