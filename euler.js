@@ -1,7 +1,5 @@
 //alert("Euler loaded!");
 
-document.getElementById("txtarea1").innerHTML = "sample";
-
 funtionSumOfMultiplies = () => {
 
     let sum = 0;
