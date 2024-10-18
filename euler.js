@@ -44,12 +44,12 @@ functionArray = (a,b) =>{
     const arr = [3,5]
     let txt = "";
 
-    // func1 = (value) =>{
+    func1 = (value) =>{
         
-    //     txt += value +" , ";
-    // }
+        txt += value +" , ";
+    }
 
-    // arr.forEach(func1);
+    arr.forEach(func1);
     
     document.getElementById("txtarea1").innerHTML = "sample";
 }
