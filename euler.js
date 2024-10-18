@@ -44,14 +44,21 @@ functionArray = (a,b) =>{
     const arr = [3,5]
     let txt = "";
 
-    func1 = (value) =>{
-        
-        txt += value +" , ";
+    func1 = (n) =>{
+
+        let sum = 0;
+        for(let i = 0; i < n; i++){
+            if( (i % a == 0) || (i % b == 0)){
+                sum += i;
+            }
+        }
+
+        txt += "<p>Sum of multiples of "+a+ " and " +b+ " below " +n+" : "+sum +"</p>";
     }
 
     arr.forEach(func1);
     
-    document.getElementById("txtarea1").innerHTML = "sample";
+    document.getElementById("txtarea1").innerHTML = txt;
 }
 
 functionArray(1,2);
